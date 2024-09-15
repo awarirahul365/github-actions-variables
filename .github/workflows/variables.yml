@@ -9,7 +9,8 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    env:
+      ACCESS_ID: 'kode-kloud-123456'
     steps:
     - name: Echo ACCESS_ID
       run: echo $ACCESS_ID
